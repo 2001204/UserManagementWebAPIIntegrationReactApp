@@ -1,0 +1,184 @@
+
+
+.app-container {
+    display: flex;
+    
+  }
+  
+
+  .nav{
+    background-color: rgb(230, 193, 230);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(129, 255, 129, 0.5); /* Glowing effect */
+  }
+
+  .footer {
+    background-color: rgb(87, 254, 246);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(129, 255, 129, 0.5); /* Glowing effect */
+  }
+  
+  .user-list {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    background-color: aquamarine;
+    line-height: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(129, 255, 129, 0.5); /* Glowing effect */
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+  }
+
+  .user-name li {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-name li:hover {
+    background-color: lightcoral; /* Highlight color on hover */
+  }
+  
+  .user-details {
+    width: 75%;
+    padding: 20px;
+    background-color: #fff; /* White background for better readability */
+    border-left: 1px solid #ddd; /* Subtle border to separate from user list */
+  }
+  
+  .user-details h2 {
+    margin-top: 0;
+    color: #017afa;
+  }
+  
+  .user-details-tabs {
+    margin-bottom: 20px; /* Space below tabs */
+    background-color: burlywood;
+    text-shadow: #0f7aec;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(129, 255, 129, 0.5); /* Glowing effect */
+  }
+
+  .action-section {
+    margin-top: 10px;
+    bottom: unset;
+    cursor: pointer;
+  }
+  
+  .edit-popup {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+  }
+
+  button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #37f2b4; /* Darker shade on hover */
+  }
+
+  .edit-popup{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff00f2;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+ 
+  }
+  .profile-tab {
+    background: #f5d3d3; /* Dark background for a digital look */
+    color: rgb(43, 44, 43); /* Neon green text for a digital feel */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(129, 255, 129, 0.5); /* Glowing effect */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for digital look */
+    line-height: 1.6; /* Better spacing between lines */
+  }
+
+  .address-tab{
+    background: #f5d3d3; /* Dark background for a digital look */
+    color: rgb(43, 44, 43); /* Neon green text for a digital feel */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(129, 255, 129, 0.5); /* Glowing effect */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for digital look */
+    line-height: 1.6; /* Better spacing between lines */
+  }
+
+  .company-details-tab{
+    background: #f5d3d3; /* Dark background for a digital look */
+    color: rgb(43, 44, 43); /* Neon green text for a digital feel */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(129, 255, 129, 0.5); /* Glowing effect */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for digital look */
+    line-height: 1.8; /* Better spacing between lines */
+  }
+
+  .contact-tab {
+    background: #f5d3d3; /* Dark background for a digital look */
+    color: rgb(43, 44, 43); /* Neon green text for a digital feel */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(129, 255, 129, 0.5); /* Glowing effect */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for digital look */
+    line-height: 1.8; /* Better spacing between lines */
+  }
+  
+  .profile-tab p {
+    margin: 0;
+  }
+  
+  .profile-tab strong {
+    color: rgb(9, 9, 9); 
+  }
+  
+
+
+  .user-list {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    background-color: aquamarine;
+  }
+  
+  .user-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-list li:hover {
+    background-color: lightcoral; /* Highlight color on hover */
+  }
+  
+  .user-list li.selected {
+    background-color: rgb(77, 140, 249); /* Selected user background color */
+    color: white; /* Text color for selected user */
+  }
+  
